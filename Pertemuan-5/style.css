@@ -119,3 +119,36 @@ footer {
         align-items: center;
     }
 }
+
+#btnToggle {
+  padding: 8px 16px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+body.dark {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.dark header {
+  background-color: #0f3460;
+}
+
+body.dark section {
+  background-color: #16213e;
+  border-color: #444;
+}
+
+body.dark .skill-item {
+  background-color: #e94560;
+}
+
+body.dark td {
+    color: #262626;
+}
